@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context="com.trickyandroid.fragmenttranslate.app.MainActivity">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/gridViewLayout">
+        <GridView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/gridViewPhoto"
+                android:columnWidth="100dp"
+                android:gravity="center"
+                android:horizontalSpacing="5dp"
+                android:numColumns="auto_fit"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="10dp">
+        </GridView>
+    </RelativeLayout>
+
+
+    <FrameLayout
+            android:id="@+id/list_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+</RelativeLayout>
